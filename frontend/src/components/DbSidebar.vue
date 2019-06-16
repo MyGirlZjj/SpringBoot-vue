@@ -1,5 +1,7 @@
 <template>
     <li class="el-menu-item is-active" style="">{{msg}}</li>
+<!--    <li class="el-menu-item" style="">{{msg1}}</li>-->
+<!--    <li class="el-menu-item is-active" style="">{{msg}}</li>-->
 </template>
 
 <script>
@@ -8,7 +10,7 @@
         name: 'db-sidebar',
         data() {
             return {
-                msg: 'Dashboard'
+                msg: '药品信息'
             }
         }
     }
